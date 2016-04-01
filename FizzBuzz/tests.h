@@ -16,7 +16,7 @@ using namespace std;
 class Tests
 {
 public:
-    string test (int input);
+    string test (int input) const;
     };
 
 #endif /* defined(__FizzBuzz__tests__) */

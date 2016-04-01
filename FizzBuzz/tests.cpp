@@ -13,7 +13,7 @@ using namespace std;
 
 FizzBuzz game;
 
-string Tests::test(int input)
+string Tests::test(int input) const
 {
     if (input == 3 && game.play(3) == "Fizz") {
         return "TRUE";

@@ -12,7 +12,7 @@
 using namespace std;
 
 
-string FizzBuzz::play(int number)
+string FizzBuzz::play(int number) const
 {
     if (number < 0) {
         return "Must be Positive Number";
@@ -36,7 +36,7 @@ string FizzBuzz::play(int number)
     return to_string(number);
 }
 
-bool FizzBuzz::isDivisibleBy(int number, int divisor)
+bool FizzBuzz::isDivisibleBy(int number, int divisor) const
 {
     return number % divisor == 0;
 }
