@@ -13,10 +13,10 @@
 
 class Tests
 {
-    bool fizzes? ();
-    bool buzzes? ();
-    bool fizzbuzzes? ();
-    bool other_numbers? ();
+    bool fizzes ();
+    bool buzzes ();
+    bool fizzbuzzes ();
+    bool other_numbers ();
 };
 
 #endif /* defined(__FizzBuzz__tests__) */
