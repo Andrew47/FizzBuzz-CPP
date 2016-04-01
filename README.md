@@ -11,10 +11,21 @@ A solution is also available in [Python](https://github.com/Andrew47/fizzbuzz-Py
 The repository should be cloned and the directory changed into:
 
 ```
-$ git clone git@github.com:Andrew47/Fizzbuzz.git
-$ cd fizzbuzz_JS
-$ cd FizzBuzz
+$ git clone git@github.com:Andrew47/FizzBuzz-CPP.git
+$ cd FizzBuzz-CPP
 ```
 
 ##Usage Instructions
+
+* This program was created using [Xcode 6.4](https://developer.apple.com/xcode/).
+
+* To run the program, open FizzBuzz.xcodeproj with Xcode.
+
+* Click the right-pointing triangle in the top left.
+
+* Follow instructions in bottom-right.
+
+##Author
+
+* [Andrew Burnie](https://github.com/Andrew47)
 
