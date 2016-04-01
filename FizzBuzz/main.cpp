@@ -18,10 +18,10 @@ int main() {
     Tests test;
     
     cout << "Below are test results" << endl
-    << "Fizzes? " << test.fizzes(3, game.play(3)) << endl
-    << "Buzzes? "
-    << "FizzBuzzes? "
-    << "Otherwise returns integer? " << endl;
+    << "Fizzes? " << test.test(3, game.play(3)) << endl
+    << "Buzzes? " << test.test(5, game.play(5)) << endl
+    << "FizzBuzzes? " << test.test(15, game.play(15)) << endl
+    << "Otherwise returns integer? " << test.test(7, game.play(7)) << endl;
     
     cout << "Below is program" << endl;
     cout << "Please give integer: ";

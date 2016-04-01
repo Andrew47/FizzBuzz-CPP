@@ -10,11 +10,33 @@
 #include <string>
 using namespace std;
 
-string Tests::fizzes(int input, string output)
+string Tests::test(int input, string output)
 {
-    if (input == 3 && output == "fizz") {
+    if (input == 3 && output == "Fizz") {
+        return "TRUE";
+    }
+
+    if (input == 5 && output == "Buzz") {
+        return "TRUE";
+    }
+
+    if (input == 15 && output == "Fizzbuzz") {
         return "TRUE";
     }
     return "FALSE";
 }
+
+string Tests::test(int input, int output)
+{
+    if (input == 7 && output == 7) {
+        return "TRUE";
+    }
+    
+    return "FALSE";
+}
+
+
+
+
+
 

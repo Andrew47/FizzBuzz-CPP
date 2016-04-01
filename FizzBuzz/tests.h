@@ -16,10 +16,8 @@ using namespace std;
 class Tests
 {
 public:
-    string fizzes (int input, string output);
-    string buzzes ();
-    string fizzbuzzes ();
-    string other_numbers ();
-};
+    string test (int input, string output);
+    string test (int input, int output);
+    };
 
 #endif /* defined(__FizzBuzz__tests__) */
