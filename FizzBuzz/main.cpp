@@ -24,13 +24,21 @@ int main() {
     << "Otherwise returns integer? " << test.test(7) << endl
     << "Rejection of negative numbers? " << test.test(-7) << endl << endl;
     
-    cout << "Note: If given number is not an integer, rounded down to nearest" << endl << endl;
+    cout << "Note: If given number is not an integer, rounded down to nearest" << endl
+    << "Typing 0 will terminate program" << endl << endl;
     
     cout << "Below is program: " << endl << endl;
+    
+    do
+    {
+    
     cout << "Please give integer: ";
     cin >> integer;
     
-    cout << game.play(integer);
+    cout << game.play(integer) << endl;
+    }
+    
+    while (integer != 0);
     
     return 0;
 }
