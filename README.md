@@ -23,7 +23,7 @@ $ cd FizzBuzz-CPP
 
 * Click the right-pointing triangle in the top left.
 
-* Follow instructions in bottom-right.
+* Follow instructions in bottom right.
 
 ##Author
 
