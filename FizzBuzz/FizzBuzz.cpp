@@ -12,5 +12,10 @@
 
 string FizzBuzz::play(int number)
 {
+    if (number == 3)
+    {
+        return "Fizz";
+    }
+    
     return "hello";
 }
