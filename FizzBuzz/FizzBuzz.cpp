@@ -18,20 +18,25 @@ string FizzBuzz::play(int number)
         return "Must be Positive Number";
     }
     
-    if (number % 15 == 0)
+    if (isDivisibleBy(number, 15))
     {
         return "Fizzbuzz";
     }
     
-    if (number % 3 == 0)
+    if (isDivisibleBy(number, 3))
     {
         return "Fizz";
     }
     
-    if (number % 5 == 0)
+    if (isDivisibleBy(number, 5))
     {
         return "Buzz";
     }
     
     return to_string(number);
+}
+
+bool FizzBuzz::isDivisibleBy(int number, int divisor)
+{
+    return number % divisor == 0;
 }

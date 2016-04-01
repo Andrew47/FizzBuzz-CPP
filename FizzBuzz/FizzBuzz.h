@@ -18,6 +18,8 @@ class FizzBuzz
 {
 public:
     string play(int number);
+private:
+    bool isDivisibleBy(int number, int divisor);
 };
 
 
