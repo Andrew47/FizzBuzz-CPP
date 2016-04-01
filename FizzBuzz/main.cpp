@@ -17,7 +17,7 @@ int main() {
     FizzBuzz game;
     Tests test;
     
-    cout << "Below are test results: " << endl << endl
+    cout << "Below are the test results: " << endl << endl
     << "1. Fizzes? " << test.test(3) << endl
     << "2. Buzzes? " << test.test(5) << endl
     << "3. FizzBuzzes? " << test.test(15) << endl
@@ -25,15 +25,18 @@ int main() {
     << "5. Rejection of negative numbers? " << test.test(-7) << endl
     << "6. Nothing returned with 0? " << test.test(0) << endl << endl;
     
-    cout << "If given number is not an integer, rounded down to nearest integer." << endl << endl
-    << "Typing 0 will terminate program" << endl << endl;
+    cout << "Program Guidance: " << endl << endl;
     
-    cout << "Below is program: " << endl << endl;
+    cout << "1. Must give a number not text" << endl
+         << "2. If given number is not an integer, rounded down to the nearest integer" << endl
+         << "3. Typing 0 will terminate the program" << endl << endl;
+    
+    cout << "Below is the program: " << endl << endl;
     
     do
     {
     
-    cout << "Please give integer: ";
+    cout << "Please give an integer: ";
     cin >> integer;
     
     cout << game.play(integer) << endl;
