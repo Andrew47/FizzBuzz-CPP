@@ -14,6 +14,10 @@ using namespace std;
 
 string FizzBuzz::play(int number)
 {
+    if (number < 0) {
+        return "Must be Positive Number";
+    }
+    
     if (number % 15 == 0)
     {
         return "Fizzbuzz";
