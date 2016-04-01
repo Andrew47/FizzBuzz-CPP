@@ -18,13 +18,13 @@ int main() {
     Tests test;
     
     cout << "Below are test results: " << endl << endl
-    << "Fizzes? " << test.test(3) << endl
-    << "Buzzes? " << test.test(5) << endl
-    << "FizzBuzzes? " << test.test(15) << endl
-    << "Otherwise returns integer? " << test.test(7) << endl
-    << "Rejection of negative numbers? " << test.test(-7) << endl << endl;
+    << "1. Fizzes? " << test.test(3) << endl
+    << "2. Buzzes? " << test.test(5) << endl
+    << "3. FizzBuzzes? " << test.test(15) << endl
+    << "4. Otherwise returns integer? " << test.test(7) << endl
+    << "5. Rejection of negative numbers? " << test.test(-7) << endl << endl;
     
-    cout << "Note: If given number is not an integer, rounded down to nearest" << endl
+    cout << "If given number is not an integer, rounded down to nearest integer." << endl << endl
     << "Typing 0 will terminate program" << endl << endl;
     
     cout << "Below is program: " << endl << endl;
