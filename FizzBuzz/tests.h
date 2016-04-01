@@ -10,13 +10,16 @@
 #define __FizzBuzz__tests__
 
 #include <stdio.h>
+#include <string>
+using namespace std;
 
 class Tests
 {
-    bool fizzes ();
-    bool buzzes ();
-    bool fizzbuzzes ();
-    bool other_numbers ();
+public:
+    string fizzes (int input, string output);
+    string buzzes ();
+    string fizzbuzzes ();
+    string other_numbers ();
 };
 
 #endif /* defined(__FizzBuzz__tests__) */

@@ -8,17 +8,19 @@
 
 #include <iostream>
 #include "FizzBuzz.h"
+#include "tests.h"
 
 using namespace std;
 
 int main() {
     int integer;
     FizzBuzz game;
+    Tests test;
     
     cout << "Below are test results" << endl
-    << "Fizzes? "
+    << "Fizzes? " << test.fizzes(3, game.play(3)) << endl
     << "Buzzes? "
-    << "FizzBuzzes?"
+    << "FizzBuzzes? "
     << "Otherwise returns integer? " << endl;
     
     cout << "Below is program" << endl;

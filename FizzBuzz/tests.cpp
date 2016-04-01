@@ -7,4 +7,14 @@
 //
 
 #include "tests.h"
+#include <string>
+using namespace std;
+
+string Tests::fizzes(int input, string output)
+{
+    if (input == 3 && output == "fizz") {
+        return "TRUE";
+    }
+    return "FALSE";
+}
 
