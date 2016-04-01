@@ -31,6 +31,10 @@ string Tests::test(int input)
         return "TRUE";
     }
     
+    if (input == -7 && game.play(-7) == "Must be Positive Number") {
+        return "TRUE";
+    }
+    
     return "FALSE";
 }
 
