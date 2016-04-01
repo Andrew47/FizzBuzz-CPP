@@ -8,24 +8,26 @@
 
 #include <stdio.h>
 #include "FizzBuzz.h"
+#include <string>
+using namespace std;
 
 
 string FizzBuzz::play(int number)
 {
-    if (number == 3)
-    {
-        return "Fizz";
-    }
-    
-    if (number == 5)
-    {
-        return "Buzz";
-    }
-    
-    if (number == 15)
+    if (number % 15 == 0)
     {
         return "Fizzbuzz";
     }
     
-    return "hello";
+    if (number % 3 == 0)
+    {
+        return "Fizz";
+    }
+    
+    if (number % 5 == 0)
+    {
+        return "Buzz";
+    }
+    
+    return to_string(number);
 }
