@@ -22,7 +22,10 @@ string FizzBuzz::play(int number)
         return "Buzz";
     }
     
-    
+    if (number == 15)
+    {
+        return "Fizzbuzz";
+    }
     
     return "hello";
 }
