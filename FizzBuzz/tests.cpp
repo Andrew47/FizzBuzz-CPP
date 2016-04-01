@@ -35,6 +35,10 @@ string Tests::test(int input) const
         return "TRUE";
     }
     
+    if (input == 0 && game.play(0) == "") {
+        return "TRUE";
+    }
+    
     return "FALSE";
 }
 
